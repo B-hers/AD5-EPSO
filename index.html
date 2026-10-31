@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AD5 Training</title>
+<meta name="theme-color" content="#12343b">
+<meta name="description" content="Entraînement aux tests de raisonnement EPSO AD5 : verbal, numérique, abstrait.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="AD5 Training">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="update" class="banner" hidden>Une nouvelle version est disponible. <button id="update-btn" class="link">Mettre à jour</button></div>
+<header class="top">
+  <button id="home-btn" class="brand" aria-label="Accueil">AD5 Training</button>
+  <nav aria-label="Navigation">
+    <button data-nav="errors" class="navbtn">Mes erreurs</button>
+    <button data-nav="settings" class="navbtn">Réglages</button>
+  </nav>
+</header>
+<main id="app" tabindex="-1" aria-live="polite"></main>
+<script src="figures.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
